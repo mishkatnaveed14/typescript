@@ -1,0 +1,27 @@
+console.log("mishkat");
+// q--1
+type Product ={
+    name: string
+    price:number
+    Status:"in-stock" |" out-stock"
+} 
+let myprod:Product= {
+name : "mishi",
+price : 89,
+Status : "in-stock"
+}
+console.log(myprod);
+// console.log(myprod.price);
+// console.log(myprod.Status);
+interface Vehicle {
+    brand: string;
+    model: string;
+    year: number
+}
+
+let myCar:Vehicle ={
+    brand : "toyota",
+    model : "honda",
+    year : 2026
+}
+console.log(myCar);
