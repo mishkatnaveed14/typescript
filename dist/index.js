@@ -12,4 +12,5 @@ let myCar = {
 };
 console.log(myCar);
 export {};
+// q---3 function type
 //# sourceMappingURL=index.js.map

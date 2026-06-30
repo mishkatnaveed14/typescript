@@ -27,3 +27,4 @@ let myCar:Vehicle ={
     year : 2026
 }
 console.log(myCar);
+// q---3 function type
