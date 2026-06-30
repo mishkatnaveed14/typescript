@@ -17,5 +17,6 @@ function greetuser(username) {
 }
 greetuser("saba");
 export {};
-// q--4 oops
+//  OOPS
+// q--4
 //# sourceMappingURL=index.js.map

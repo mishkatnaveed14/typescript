@@ -32,4 +32,5 @@ function greetuser(username: string): void {
   console.log(`hello ${username}`);
 }
 greetuser("saba")
-// q--4 oops
+//  OOPS
+// q--4
