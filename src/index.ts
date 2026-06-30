@@ -45,3 +45,6 @@ const myacc = new Account("amna",5000)
 console.log(myacc);
 
 // q--4
+class Employee{
+    
+}

@@ -25,6 +25,8 @@ class Account {
 }
 const myacc = new Account("amna", 5000);
 console.log(myacc);
-export {};
 // q--4
+class Employee {
+}
+export {};
 //# sourceMappingURL=index.js.map
