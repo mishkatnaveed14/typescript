@@ -29,5 +29,6 @@ let myCar: Vehicle = {
 console.log(myCar);
 // q---3 function type
 function greetuser(username: string): void {
-  console.log("Hello Saba!!");
+  console.log(`hello ${username}`);
 }
+greetuser("saba")

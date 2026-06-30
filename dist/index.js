@@ -13,7 +13,8 @@ let myCar = {
 console.log(myCar);
 // q---3 function type
 function greetuser(username) {
-    console.log("Hello Saba!!");
+    console.log(`hello ${username}`);
 }
+greetuser("saba");
 export {};
 //# sourceMappingURL=index.js.map
