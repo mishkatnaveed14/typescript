@@ -40,4 +40,5 @@ console.log(emp1);
 console.log(emp2);
 console.log(emp3);
 export {};
+// oops ----- parameter properties 
 //# sourceMappingURL=index.js.map

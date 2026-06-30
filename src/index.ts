@@ -49,7 +49,7 @@ class Employee {
   public name: string;
   private salary: number;
   readonly id: string;
-  
+
   constructor(names: string, salaries: number, id: string) {
     this.name = names;
     this.salary = salaries;
@@ -62,5 +62,6 @@ const emp3 =  new Employee("alina",10000,"opiu10")
 console.log(emp1);
 console.log(emp2);
 console.log(emp3);
+// oops ----- parameter properties 
 
 
