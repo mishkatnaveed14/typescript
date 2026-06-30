@@ -72,6 +72,9 @@ class Vehicles {
   constructor(brand : string,enginetype : string) {
     super(Vehicles)
     getdetail(){
+        console.log(brand);
+        
+        console.log(enginetype);
         
     }
   }

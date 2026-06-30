@@ -51,6 +51,8 @@ class Car {
         super(Vehicles);
         getdetail();
         {
+            console.log(brand);
+            console.log(enginetype);
         }
     }
 }
