@@ -49,6 +49,7 @@ class Employee {
   public name: string;
   private salary: number;
   readonly id: string;
+  
   constructor(names: string, salaries: number, id: string) {
     this.name = names;
     this.salary = salaries;
