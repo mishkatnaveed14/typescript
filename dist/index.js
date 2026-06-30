@@ -39,6 +39,11 @@ const emp3 = new Employee("alina", 10000, "opiu10");
 console.log(emp1);
 console.log(emp2);
 console.log(emp3);
-export {};
 // oops ----- parameter properties
+class Student {
+    constructor(name, dob, age) {
+        this.sub = [];
+    }
+}
+export {};
 //# sourceMappingURL=index.js.map

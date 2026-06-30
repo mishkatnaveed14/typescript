@@ -64,3 +64,7 @@ console.log(emp2);
 console.log(emp3);
 // oops ----- parameter properties
 
+class Student {
+  private sub: string[] = [];
+  constructor(name: string, dob: string, age: number) {}
+}
