@@ -42,6 +42,9 @@ console.log(emp3);
 // oops ----- parameter properties
 class Student {
     constructor(name, dob, age) {
+        this.name = name;
+        this.dob = dob;
+        this.age = age;
         this.sub = [];
     }
     addsubj(subject) {
@@ -50,5 +53,6 @@ class Student {
 }
 let stud1 = new Student("mishi", "17-june-2007", 17);
 stud1.addsubj("math");
+console.log(stud1);
 export {};
 //# sourceMappingURL=index.js.map
