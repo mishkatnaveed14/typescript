@@ -63,5 +63,5 @@ console.log(emp1);
 console.log(emp2);
 console.log(emp3);
 // oops ----- parameter properties 
-
+class
 
