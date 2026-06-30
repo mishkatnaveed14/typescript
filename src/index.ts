@@ -71,6 +71,9 @@ class Vehicles {
   class Car {
   constructor(brand : string,enginetype : string) {
     super(Vehicles)
+    getdetail(){
+        
+    }
   }
   }
 }
