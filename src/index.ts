@@ -31,20 +31,35 @@ console.log(myCar);
 function greetuser(username: string): void {
   console.log(`hello ${username}`);
 }
-greetuser("saba")
+greetuser("saba");
 //  OOPS
-class Account{
-    name : string;
-    balance : number
-    constructor(name:string, balance:number) {
-        this.name = name
-        this.balance = balance
-    }
+class Account {
+  name: string;
+  balance: number;
+  constructor(name: string, balance: number) {
+    this.name = name;
+    this.balance = balance;
+  }
 }
-const myacc = new Account("amna",5000)
+const myacc = new Account("amna", 5000);
 console.log(myacc);
 
 // q--4
-class Employee{
-    
+class Employee {
+  public name: string;
+  private salary: number;
+  readonly id: string;
+  constructor(names: string, salaries: number, id: string) {
+    this.name = names;
+    this.salary = salaries;
+    this.id = id;
+  }
 }
+const emp1 =  new Employee("saba",5000,"opiu8")
+const emp2 =  new Employee("amna",8000,"opiu9")
+const emp3 =  new Employee("alina",10000,"opiu10")
+console.log(emp1);
+console.log(emp2);
+console.log(emp3);
+
+
