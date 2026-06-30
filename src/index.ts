@@ -56,12 +56,21 @@ class Employee {
     this.id = id;
   }
 }
-const emp1 =  new Employee("saba",5000,"opiu8")
-const emp2 =  new Employee("amna",8000,"opiu9")
-const emp3 =  new Employee("alina",10000,"opiu10")
+const emp1 = new Employee("saba", 5000, "opiu8");
+const emp2 = new Employee("amna", 8000, "opiu9");
+const emp3 = new Employee("alina", 10000, "opiu10");
 console.log(emp1);
 console.log(emp2);
 console.log(emp3);
-// oops ----- parameter properties 
-class
-
+// oops ----- parameter properties
+class Vehicles {
+  constructor(
+    public brand: string,
+    protected engineType: string,
+  ) {}
+  class Car {
+   getdetails (){
+    
+   }
+  }
+}
