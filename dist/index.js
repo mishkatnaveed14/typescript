@@ -2,15 +2,18 @@ console.log("mishkat");
 let myprod = {
     name: "mishi",
     price: 89,
-    Status: "in-stock"
+    Status: "in-stock",
 };
 console.log(myprod);
 let myCar = {
     brand: "toyota",
     model: "honda",
-    year: 2026
+    year: 2026,
 };
 console.log(myCar);
-export {};
 // q---3 function type
+function greetuser(username) {
+    console.log("Hello Saba!!");
+}
+export {};
 //# sourceMappingURL=index.js.map
