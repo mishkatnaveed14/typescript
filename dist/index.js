@@ -23,6 +23,8 @@ class Account {
         this.balance = balance;
     }
 }
+const myacc = new Account("amna", 5000);
+console.log(myacc);
 export {};
 // q--4
 //# sourceMappingURL=index.js.map

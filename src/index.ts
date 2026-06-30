@@ -41,4 +41,7 @@ class Account{
         this.balance = balance
     }
 }
+const myacc = new Account("amna",5000)
+console.log(myacc);
+
 // q--4
