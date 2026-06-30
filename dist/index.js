@@ -44,9 +44,11 @@ class Student {
     constructor(name, dob, age) {
         this.sub = [];
     }
-    addsub(subject) {
+    addsubj(subject) {
         this.sub.push(subject);
     }
 }
+let stud1 = new Student("mishi", "17-june-2007", 17);
+stud1.addsubj("math");
 export {};
 //# sourceMappingURL=index.js.map

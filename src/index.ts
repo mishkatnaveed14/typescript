@@ -67,7 +67,10 @@ console.log(emp3);
 class Student {
   private sub: string[] = [];
   constructor(name: string, dob: string, age: number) {}
-  addsub(subject: String){
-    this.sub.push(subject)
+  addsubj(subject: string) {
+    this.sub.push(subject);
   }
 }
+
+let stud1 = new Student("mishi", "17-june-2007", 17);
+stud1.addsubj("math");
