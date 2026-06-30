@@ -63,18 +63,4 @@ console.log(emp1);
 console.log(emp2);
 console.log(emp3);
 // oops ----- parameter properties
-class Vehicles {
-  constructor(
-    public brand: string,
-    protected engineType: string,
-  ) {}
-  class Car {
-  constructor(brand : string,enginetype : string) {
-    super(Vehicles)
-    getdetail(){
-        console.log(brand);
-        console.log(enginetype);
-    }
-  }
-  }
-}
+

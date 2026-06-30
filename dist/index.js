@@ -39,22 +39,6 @@ const emp3 = new Employee("alina", 10000, "opiu10");
 console.log(emp1);
 console.log(emp2);
 console.log(emp3);
-// oops ----- parameter properties
-class Vehicles {
-    constructor(brand, engineType) {
-        this.brand = brand;
-        this.engineType = engineType;
-    }
-}
-class Car {
-    constructor(brand, enginetype) {
-        super(Vehicles);
-        getdetail();
-        {
-            console.log(brand);
-            console.log(enginetype);
-        }
-    }
-}
 export {};
+// oops ----- parameter properties
 //# sourceMappingURL=index.js.map
