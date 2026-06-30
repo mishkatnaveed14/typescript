@@ -47,7 +47,8 @@ class Vehicles {
     }
 }
 class Car {
-    getdetails() {
+    constructor(brand, enginetype) {
+        super(Vehicles);
     }
 }
 export {};

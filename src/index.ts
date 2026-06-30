@@ -69,8 +69,8 @@ class Vehicles {
     protected engineType: string,
   ) {}
   class Car {
-   getdetails (){
-    
-   }
+  constructor(brand : string,enginetype : string) {
+    super(Vehicles)
+  }
   }
 }
