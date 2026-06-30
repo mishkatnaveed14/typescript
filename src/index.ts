@@ -34,6 +34,11 @@ function greetuser(username: string): void {
 greetuser("saba")
 //  OOPS
 class Account{
-    
+    name : string;
+    balance : number
+    constructor(name:string, balance:number) {
+        this.name = name
+        this.balance = balance
+    }
 }
 // q--4
