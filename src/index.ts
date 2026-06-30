@@ -1,5 +1,5 @@
 console.log("mishkat");
-// q--1
+// q--1 type alliases
 type Product ={
     name: string
     price:number
@@ -13,6 +13,8 @@ Status : "in-stock"
 console.log(myprod);
 // console.log(myprod.price);
 // console.log(myprod.Status);
+
+// q--2 type interface
 interface Vehicle {
     brand: string;
     model: string;
