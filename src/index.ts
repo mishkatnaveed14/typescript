@@ -33,4 +33,7 @@ function greetuser(username: string): void {
 }
 greetuser("saba")
 //  OOPS
+class Account{
+    
+}
 // q--4

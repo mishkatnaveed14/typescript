@@ -16,7 +16,9 @@ function greetuser(username) {
     console.log(`hello ${username}`);
 }
 greetuser("saba");
-export {};
 //  OOPS
+class Account {
+}
+export {};
 // q--4
 //# sourceMappingURL=index.js.map
